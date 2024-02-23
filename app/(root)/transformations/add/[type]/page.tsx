@@ -15,13 +15,13 @@
 
 //   return (
 //     <>
-//       <Header 
+//       <Header
 //         title={transformation.title}
 //         subtitle={transformation.subTitle}
 //       />
     
 //       <section className="mt-10">
-//         <TransformationForm 
+//         <TransformationForm
 //           action="Add"
 //           userId={user._id}
 //           type={transformation.type as TransformationTypeKey}
@@ -33,3 +33,12 @@
 // }
 
 // export default AddTransformationTypePage
+import React from 'react'
+
+const page = () => {
+  return (
+    <div>page</div>
+  )
+}
+
+export default page
